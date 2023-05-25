@@ -1,0 +1,22 @@
+.projet_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+}
+
+.projets {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.project {
+  width: 400px;
+  border-radius: 3px;
+}
+
+.project:hover {
+  cursor: pointer;
+  transform: translateY(-7px);
+}

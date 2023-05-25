@@ -1,0 +1,82 @@
+.contact_container {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+.contact_container h2 {
+  text-align: center;
+  color: rgb(181, 219, 228);
+  font-size: 70px;
+}
+
+.contact_container p {
+  font-size: 25px;
+  color: rgb(204, 203, 203);
+  text-align: center;
+  margin-top: 2%;
+}
+
+form {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.input {
+  display: flex;
+  column-gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid rgb(181, 219, 228);
+  background-color: rgb(30, 56, 112);
+  width: 220px;
+  padding-bottom: 10px;
+}
+
+textarea {
+  border: none;
+  border-bottom: 1px solid rgb(181, 219, 228);
+  background-color: rgb(30, 56, 112);
+  resize: none;
+  width: 470px;
+  height: 100px;
+}
+
+.message {
+  margin-top: 15%;
+  margin-bottom: 12%;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: rgb(204, 203, 203);
+  font-size: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  color: rgb(204, 203, 203);
+  font-size: 18px;
+}
+
+button {
+  margin: 0 auto;
+  color: #fff;
+  border: 1px solid rgb(0, 153, 255);
+  padding: 5px;
+  margin-top: -7px;
+  background: none;
+  width: 200px;
+  height: 65px;
+}
+
+button:hover {
+  background-color: rgba(0, 153, 255, 0.089);
+  cursor: pointer;
+}

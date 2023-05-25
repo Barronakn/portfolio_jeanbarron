@@ -1,0 +1,75 @@
+@media screen and (max-width: 768px) {
+  .contact_container h2 {
+    font-size: 50px;
+  }
+
+  .contact_container p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact_container h2 {
+    font-size: 40px;
+  }
+
+  .contact_container p {
+    font-size: 17px;
+  }
+
+  input {
+    width: 150px;
+  }
+
+  textarea {
+    width: 330px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .input {
+    display: block;
+  }
+
+  .input input {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .contact_container h2 {
+    font-size: 30px;
+  }
+
+  .contact_container p {
+    font-size: 15px;
+  }
+
+  input {
+    width: 250px;
+  }
+
+  textarea {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  input {
+    width: 200px;
+  }
+
+  textarea {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 250px) {
+  input {
+    width: 150px;
+  }
+
+  textarea {
+    width: 150px;
+  }
+}

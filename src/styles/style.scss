@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "settings.scss";
+@import "./components/navigation.scss";
+@import "./components/navigation-res.scss";
+@import "./pages/home.scss";
+@import "./pages/about.scss";
+@import "./pages/experience.scss";
+@import "./pages/projet.scss";
+@import "./pages/contact.scss";
+@import "./pages/home-res.scss";
+@import "./pages/about-res.scss";
+@import "./pages/experience-res.scss";
+@import "./pages/projet-res.scss";
+@import "./pages/contact-res.scss";
