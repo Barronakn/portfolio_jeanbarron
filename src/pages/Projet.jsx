@@ -19,7 +19,7 @@ const Projet = () => {
         <h1>Mes réalisations</h1>
         <div className="projet_container">
           <div className="projets">
-            <div className="project_1 flex justify-center items-center flex-col gap-2">
+            {/* <div className="project_1 flex justify-center items-center flex-col gap-2">
               <NavLink
                 target="_blank"
                 to="https://fashion-sage-nu.vercel.app/"
@@ -34,7 +34,7 @@ const Projet = () => {
               >
                 Fashion
               </NavLink>
-            </div>
+            </div> */}
             <div className="project_2 flex justify-center items-center flex-col gap-2">
               <NavLink
                 target="_blank"
