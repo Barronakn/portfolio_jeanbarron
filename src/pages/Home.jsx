@@ -5,7 +5,7 @@ const Home = () => {
     <>
       <Navigation />
       <h1>Acceuil</h1>
-      <div className="home_container">
+      <div className="home_container px-5">
         <p className="presentation">Bonjour, je suis</p>
         <p className="name mb-5">
           Jean-Barron ALOKPON,
