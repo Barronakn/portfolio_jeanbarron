@@ -3,6 +3,7 @@ import Navigation from "../components/Navigation";
 import Fashion from "../assets/Fashion.png";
 import LandingPage from "../assets/LandingPage.png";
 import aknmode from "../assets/aknmode.png";
+import mediumish from "../assets/mediumish.png";
 import country from "../assets/country.png";
 import enjoy from "../assets/enjoy.png";
 import fylla from "../assets/fylla.png";
@@ -19,7 +20,7 @@ const Projet = () => {
         <h1>Mes réalisations</h1>
         <div className="projet_container">
           <div className="projets">
-            {/* <div className="project_1 flex justify-center items-center flex-col gap-2">
+            <div className="flex justify-center items-center flex-col gap-2">
               <NavLink
                 target="_blank"
                 to="https://fashion-sage-nu.vercel.app/"
@@ -34,8 +35,8 @@ const Projet = () => {
               >
                 Fashion
               </NavLink>
-            </div> */}
-            <div className="project_2 flex justify-center items-center flex-col gap-2">
+            </div>
+            <div className="flex justify-center items-center flex-col gap-2">
               <NavLink
                 target="_blank"
                 to="https://aknmode-barronakn.vercel.app/"
@@ -51,7 +52,7 @@ const Projet = () => {
                 Akn mode
               </NavLink>
             </div>
-            <div className="project_3 flex justify-center items-center flex-col gap-2">
+            <div className="flex justify-center items-center flex-col gap-2">
               <NavLink
                 target="_blank"
                 to="https://barronakn.github.io/Enjoy/"
@@ -67,7 +68,23 @@ const Projet = () => {
                 Enjoy
               </NavLink>
             </div>
-            <div className="project_4 flex justify-center items-center flex-col gap-2">
+            <div className="flex justify-center items-center flex-col gap-2">
+              <NavLink
+                target="_blank"
+                to="https://mediumish-blog-barronakn.vercel.app"
+                className="project"
+              >
+                <img src={mediumish} alt="country-img" loading="lazy" />
+              </NavLink>
+              <NavLink
+                target="_blank"
+                to="https://mediumish-blog-barronakn.vercel.app"
+                className="hover:underline"
+              >
+                Mediumish Blog
+              </NavLink>
+            </div>
+            <div className="flex justify-center items-center flex-col gap-2">
               <NavLink
                 target="_blank"
                 to="https://monde-barronakn.vercel.app/"
@@ -83,7 +100,7 @@ const Projet = () => {
                 Country App
               </NavLink>
             </div>
-            <div className="project_5 flex justify-center items-center flex-col gap-2">
+            <div className="flex justify-center items-center flex-col gap-2">
               <NavLink
                 target="_blank"
                 to="https://fylla-1.vercel.app/"
@@ -99,7 +116,7 @@ const Projet = () => {
                 Fylla
               </NavLink>
             </div>
-            <div className="project_6 flex justify-center items-center flex-col gap-2">
+            <div className="flex justify-center items-center flex-col gap-2">
               <NavLink
                 target="_blank"
                 to="https://barronakn.github.io/Competence-Center/"
@@ -115,7 +132,7 @@ const Projet = () => {
                 Skillhub
               </NavLink>
             </div>
-            <div className="project_7 flex justify-center items-center flex-col gap-2">
+            <div className="flex justify-center items-center flex-col gap-2">
               <NavLink
                 target="_blank"
                 to="https://barronakn.github.io/boutiquemode/"
@@ -131,7 +148,7 @@ const Projet = () => {
                 Boutique Mode
               </NavLink>
             </div>
-            <div className="project_8 flex justify-center items-center flex-col gap-2">
+            <div className="flex justify-center items-center flex-col gap-2">
               <NavLink
                 target="_blank"
                 to="https://landing-tau-dusky.vercel.app/"
@@ -147,7 +164,7 @@ const Projet = () => {
                 Landing Page
               </NavLink>
             </div>
-            <div className="project_9 flex justify-center items-center flex-col gap-2">
+            <div className="flex justify-center items-center flex-col gap-2">
               <NavLink
                 target="_blank"
                 to="https://barronakn.github.io/Sigma/"
@@ -163,7 +180,7 @@ const Projet = () => {
                 Sigma
               </NavLink>
             </div>
-            <div className="project_10 flex justify-center items-center flex-col gap-2">
+            <div className=" flex justify-center items-center flex-col gap-2">
               <NavLink
                 target="_blank"
                 to="https://barronakn.github.io/Adept/"
